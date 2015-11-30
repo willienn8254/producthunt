@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     #patch '/products/:id', to: 'products#update'
    # delete '/products/:id', to: 'products#destroy'
    resources :products
+   root 'products#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
